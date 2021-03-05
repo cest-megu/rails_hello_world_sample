@@ -13,7 +13,7 @@ class User
     <<~EOS
 
     私の名前は#{@first_name + @last_name}です。
-    誕生日は#{@birthday}で、年齢は#{@age}歳。
+    誕生日は#{@birthday}で、年齢は#{@age}歳です。
     出身地は#{@birthplace}で、趣味は#{@hobby}です。
 
     EOS
@@ -23,7 +23,7 @@ class User
     <<~new
 
     私は#{@hobby}がうまくなりたいです。
-    そのために毎日#{@practice}勉強しています。
+    そのために毎日#{@practice}練習しています。
 
     new
   end
