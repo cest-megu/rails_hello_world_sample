@@ -6,7 +6,6 @@ class User
     @age = 27
     @birthplace = "Ishikawa"
     @hobby = "Tennis"
-    @practice = "2hours"
   end
 
   def introduce
@@ -18,14 +17,4 @@ class User
 
     EOS
   end
-
-  def new_intro
-    <<~new
-
-    私は#{@hobby}がうまくなりたいです。
-    そのために毎日#{@practice}練習しています。
-
-    new
-  end
-
 end

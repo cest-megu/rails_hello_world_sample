@@ -6,8 +6,4 @@ class HomesController < ApplicationController
 
     @my_introduce = user.introduce
   end
-  def new
-    user = User.new
-    @new_introduce = user.new_intro
-  end
 end
